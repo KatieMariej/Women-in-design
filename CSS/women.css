@@ -1,0 +1,21 @@
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size:100%;
+    line-height: lem;
+}
+ 
+/* default styles for whole page */
+body {
+    color:#101010;
+    border-color: #101010;
+    background-color: #ffffff;
+}
+
+/* content container to centre content */ 
+.container {
+    max-width: 1020px;
+    margin: 0 auto 0 auto; 
+}
