@@ -175,7 +175,7 @@ figure.quote {
     flex-basis: 66.66%;
     }
 
-    
+
    /* media queries */
 @media only screen and (max-width:1068px) {
     .container {
@@ -183,6 +183,9 @@ figure.quote {
     }
     }
     @media only screen and (max-width: 768px) {
+        .grid {
+            flex-direction: column;
+        }
     }
     @media only screen and (max-width: 600px) {
     .container {
